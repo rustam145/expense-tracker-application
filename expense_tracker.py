@@ -1,8 +1,8 @@
-from database import Database
-from user import User
-from category import Category
-from expense import Expense
-from balance import Balance
+from Database.database import Database
+from user_management.user import User
+from catagory_management.category import Category
+from expense_management.expense import Expense
+from balance_management.balance import Balance
 from decimal import Decimal
 
 class ExpenseTracker:
